@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #5a8962;
+}
+header{
+    background-color: #38523b;
+    display: flex;
+    width: 100%;
+    height: 5vw;
+    filter: drop-shadow(0px 10px 10px #303043);
+}
+#logo{
+    width: 50%;
+    filter: opacity(75%);
+}
+#logo_pic{
+    width: 6vw;
+    height: 3vw;
+    margin: 1vw;
+    border-radius: 20px;
+    object-fit:cover;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+    margin-top: 1.2vw;
+}
+.menu ul li{
+    list-style-type: none;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 2vw;
+    color: #f0fdbe;
+    float: left;
+    margin-left: 15%;
+}
+.first_section{
+    display: flex;
+    width: 100%;
+    height: 20vw;
+}
+.second_section{
+    display: flex;
+    width: 100%;
+    height: 30vw;
+}
+.two_img_container_1{
+    position: relative;
+    width: 70%;
+}
+.two_img_container_2{
+    position: relative;
+    width: 30%;
+}
+.two_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: opacity(80%) grayscale(90%);
+}
+.two_img_txt_1{
+    position: absolute;
+    top: -6vw;
+    width: 100%;
+    line-height: 0;
+    font-family: 'Advent Pro', sans-serif;
+    color: #3526EA;
+    font-size: 10vw;
+    font-weight:600;
+    text-align: center;
+}
+.two_img_txt_2{
+    position: absolute;
+    top:0;
+    font-family: 'Advent Pro', sans-serif;
+    color: #3526EA;
+    font-size: 6vw;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    text-align:right;
+    margin-left: 75%;
+}
+.my_bouton{
+    background: linear-gradient(blue, black);
+    font-family: 'Aldrich', sans-serif;
+    color: #f0fdbe;
+    font-size: 2vw;
+    padding: 2vw;
+    border-radius: 1.5vw;
+    border: none;
+    box-shadow: 10px 20px 30px rgb(40, 40, 40);
+
+}
+.search{
+    width: 30%;
+    display: flex;
+    padding-top: 5vw;
+    justify-content: center;
+}
+.sneaker{
+    width: 70%;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 7vw;
+    font-weight: lighter;
+    color: #f0fdbe;
+    text-align: right;
+}
+.input_search{
+    height: 5vw;
+    background-color: #f0fdbe;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: lightgray;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+}
+.btn{
+    background-color: #3526EA;
+    width: 5vw;
+    height: 5vw;
+}
+.blue_left{
+    border-radius: 10px 0 0 10px;
+}
+.blue_right{
+    border-radius: 0 10px 10px 0;
+}
+.r_s{
+    text-align: center;
+}
+.reseaux_s{
+    width: 5vw;
+    height: 5vw;
+    margin: 4vw;
+    border-radius: 20px;
+}
+.paiement{
+    width: 6vw;
+    height: 4vw;
+    margin: 3vw;
+}
+.Bas_de_Page{
+    display: flex;
+}
+.Element_BDP{
+    width: 30%;
+    margin: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.grand_text{
+    height: 30vw;
+    padding-top: 2vw;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-image: url("./img/prairie.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.grand_text_1{
+    width: 40%;
+    text-align: center;
+    padding: 3vw;
+    color: white;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+.third_section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.slider{
+    position: relative;
+    border: 5px solid  black;
+    border-radius: 20px;
+    width: 21%;
+    height: 25vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    box-shadow: 10px 20px 30px rgb(40, 40, 40);
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  
+}
+.nouveau{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    color: #f0fdbe;
+    background-color: #37359E;
+    border: none;
+    text-align: center;
+    font-size: 1vw;
+}
+.etoile{
+    color: yellow;
+    font-size: 1.5vw;
+    line-height: 0px;
+}
+.conteneur_slider{
+    position:absolute;
+    width: 90%;
+    height: 33%;
+    line-height: 5px;
+    border-radius: 0 0 15px 15px;
+    bottom: 0px;
+    background-color: rgba(54, 53, 53, 0.5);
+    z-index:2;
+    color: white;
+    padding: 0 0 0 10%;
+    font-size: 1vw;
+    font-family: 'Aldrich', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 20vw);
+    gap: 4vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+  }
+  .grid_section{
+    border: 5px solid  black;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px rgb(40, 40, 40);
+  }
+  .one{
+    grid-row: 1/3;
+    grid-column:1;
+  }
+  .two{
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  .three{
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .four{
+    grid-row: 1/3;
+    grid-column:4;
+  }
+.last_section{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+}
+.more_info{
+    padding-right: 2vw;
+    padding-top: 5px;
+}
+.btn_bas{
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    font-size: bold;
+    padding: 0px 5%;
+}
