@@ -36,9 +36,7 @@ header{
     margin-left: 15%;
     margin-top: 1.5vw;
 }
-
-.second_section{
-    
+.second_section{   
     width: 100%;
 }
 .two_img_container_1{
@@ -100,7 +98,9 @@ header{
     font-weight: lighter;
     color: #f0fdbe;
     text-align: center;
-    height: 11vw;
+    margin-top: 5vw;
+    /* height: 11vw; */
+    
 }
 .input_search{
     height: 5vw;
@@ -182,6 +182,7 @@ header{
     margin-top: 2.5vw;
     margin-bottom: 2.5vw;
     box-shadow: 10px 20px 30px rgb(40, 40, 40);
+   
 }
 .pic{
     width: 100%;
@@ -268,7 +269,7 @@ header{
     }
     .first_section{
         display: flex;
-        height: 20vw;
+        height: 25vw;
     }
     .search{
         width: 30%;
