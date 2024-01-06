@@ -37,6 +37,10 @@ header{
     margin-left: 15%;
     margin-top: 1.5vw;
 }
+.menu a{
+    text-decoration: none;
+    color: #f0fdbe;
+}
 .second_section{   
     width: 100%;
 }
@@ -99,11 +103,10 @@ header{
     font-weight: lighter;
     color: #f0fdbe;
     text-align: center;
-    margin-top: 5vw;
-    /* height: 11vw; */
-    
+    margin-top: 5vw;    
 }
 .input_search{
+    width: 15vw;
     height: 5vw;
     background-color: #f0fdbe;
     font-family: 'Advent Pro', sans-serif;
