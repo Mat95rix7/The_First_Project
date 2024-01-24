@@ -74,13 +74,13 @@ header{
 .two_img_txt_2{
     position: absolute;
     top:0;
+    right: 0;
     font-family: 'Advent Pro', sans-serif;
     color: #ef0f0f;
     font-size: 6vw;
     writing-mode:vertical-rl;
     transform: rotate(180deg);
-    text-align:right;
-    margin-left: 92%;
+    margin: 0px;
 }
 .my_bouton{
     background: linear-gradient(blue, black);
